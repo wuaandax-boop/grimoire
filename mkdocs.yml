@@ -1,0 +1,69 @@
+site_name: "Dax's Grimoire"
+
+theme:
+  name: material
+  language: it
+  palette:
+    # Modalità scura (Slate + Ambra)
+    - scheme: slate
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/paw 
+        name: Passa alla modalità chiara
+    # Modalità chiara
+    - scheme: default
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/weather-sunny 
+        name: Passa alla modalità scura
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search:
+      lang: it             # Ottimizza la ricerca per l'italiano
+      separator: '[\s\-\.]+' # Aiuta a cercare parole unite da trattini
+nav:
+  - 🏠 Home: index.md
+  - 🧠 Strategie: 
+      - ⚜️ Jeanne d'Arc: strategie/jeanne.md
+      - 🏯 Ottomani: strategie/ottomani.md
+      - 🌲 Rus: strategie/rus.md
+      - 🌙 Ayyubidi: strategie/ayyubidi.md
+      - 🇯🇵 Giapponesi: strategie/giapponesi.md
+      - 🐘 Delhi: strategie/delhi.md
+      - 👹 Sengoku: strategie/sengoku.md
+      - 🏛️ Bizantini: strategie/bizantini.md
+      - 🏛️ Macedoni: strategie/macedoni.md
+  - ⚔️ Enciclopedia Civiltà:
+      - 🕌 Abbasidi: civilta/abbasidi.md
+      - 🌙 Ayyubidi: civilta/ayyubidi.md
+      - 🏛️ Bizantini: civilta/bizantini.md
+      - 🇨🇳 Cinesi: civilta/cinesi.md
+      - 🐘 Delhi: civilta/delhi.md
+      - 🇫🇷 Francesi: civilta/francesi.md
+      - 🇯🇵 Giapponesi: civilta/giapponesi.md
+      - 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglesi: civilta/inglesi.md
+      - ⚜️ Jeanne d'Arc: civilta/jeanne.md
+      - 🏛️ Macedoni: civilta/macedoni.md
+      - 🇲🇱 Maliani: civilta/maliani.md
+      - 🇲🇳 Mongoli: civilta/mongoli.md
+      - ⛺ Orda d'Oro: civilta/orda.md
+      - 🐲 Order of the Dragon: civilta/dragon.md
+      - 🏯 Ottomani: civilta/ottomani.md
+      - 🌲 Rus: civilta/rus.md
+      - 👑 Sacro Romano Imp.: civilta/hre.md
+      - 👹 Sengoku: civilta/sengoku.md
+      - 👳 Tughlaq: civilta/tughlaq.md
+      - 🏮 Zhu Xi's Legacy: civilta/zhuxi.md
