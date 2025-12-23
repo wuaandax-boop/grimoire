@@ -52,24 +52,22 @@ nav:
       - ⚜️ Jeanne d'Arc:
           - 'Tower Rush (Dark Age)': strategia/jeanne/tower_rush.md
           - 'Wheelbarrow Rush': strategia/jeanne/wheelbarrow_rush.md
-  - ⚔️ Enciclopedia Civiltà:
-      - 🕌 Abbasidi: civilta/abbasidi.md
-      - 🌙 Ayyubidi: civilta/ayyubidi.md
-      - 🏛️ Bizantini: civilta/bizantini.md
-      - 🇨🇳 Cinesi: civilta/cinesi.md
-      - 🐘 Delhi: civilta/delhi.md
-      - 🇫🇷 Francesi: civilta/francesi.md
-      - 🇯🇵 Giapponesi: civilta/giapponesi.md
-      - 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglesi: civilta/inglesi.md
-      - ⚜️ Jeanne d'Arc: civilta/jeanne.md
-      - 🏛️ Macedoni: civilta/macedoni.md
-      - 🇲🇱 Maliani: civilta/maliani.md
-      - 🇲🇳 Mongoli: civilta/mongoli.md
-      - ⛺ Orda d'Oro: civilta/orda.md
-      - 🐲 Order of the Dragon: civilta/dragon.md
-      - 🏯 Ottomani: civilta/ottomani.md
-      - 🌲 Rus: civilta/rus.md
-      - 👑 Sacro Romano Imp.: civilta/hre.md
-      - 👹 Sengoku: civilta/sengoku.md
-      - 👳 Tughlaq: civilta/tughlaq.md
-      - 🏮 Zhu Xi's Legacy: civilta/zhuxi.md
+      - 🐻 Rus:
+          - '2 Hunting Cabin': strategia/rus/2hc.md
+          - '3 Hunting Cabin': strategia/rus/3hc.md
+      - 🐫 Ayyubids:
+          - 'Vortix': strategia/ayyubids/vortix.md
+      - 💣 Ottoman:
+          - 'ASAP School': strategia/ottoman/asap-school.md
+          - 'Standard': strategia/ottoman/standard.md
+      - 🏛️ Macedon:
+          - 'Standard': strategia/macedon/standard.md
+          - 'IDK': strategia/macedon/idk.md
+      - 🍇 Byzantines:
+          - 'Standard': strategia/byz/standard.md
+          - 'IDK': strategia/byz/idk.md
+      - ⛩️ Japan:
+          - 'Fast Castle': strategia/japan/fc.md
+          - 'Standard': strategia/japan/standard.md
+      - 🏯 Sengoku:
+          - 'Standard': strategia/sengoku/standard.md
