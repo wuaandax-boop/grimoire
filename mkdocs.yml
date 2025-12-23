@@ -49,13 +49,14 @@ plugins:
 nav:
   - Home: index.md
   - Strategia:
-      - ⚜️ Jeanne d'Arc:
+      - 🏰 Panoramica: strategia/index.md
+      - 🛡️ Jeanne d'Arc:
           - 'Tower Rush (Dark Age)': strategia/jeanne/tower_rush.md
           - 'Wheelbarrow Rush': strategia/jeanne/wheelbarrow_rush.md
       - 🐻 Rus:
           - '2 Hunting Cabin': strategia/rus/2hc.md
           - '3 Hunting Cabin': strategia/rus/3hc.md
-      - 🐫 Ayyubids:
+      - 🐪 Ayyubids:
           - 'Vortix': strategia/ayyubids/vortix.md
       - 💣 Ottoman:
           - 'ASAP School': strategia/ottoman/asap-school.md
@@ -69,5 +70,8 @@ nav:
       - ⛩️ Japan:
           - 'Fast Castle': strategia/japan/fc.md
           - 'Standard': strategia/japan/standard.md
-      - 🏯 Sengoku:
+      - 🏯 Sengoku :
           - 'Standard': strategia/sengoku/standard.md
+
+extra_javascript:
+  - javascripts/stats.js
