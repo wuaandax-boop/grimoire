@@ -3,27 +3,39 @@ site_name: "Dax's Grimoire"
 theme:
   name: material
   language: it
+  features:
+    - navigation.tabs        # Menu in alto orizzontale (più pulito)
+    - navigation.sections    # Raggruppa le sezioni
+    - toc.integrate          # Indice integrato a sinistra
+    - navigation.top         # Bottone "Torna su"
+    - search.suggest         # Suggerimenti ricerca
+    - content.code.copy      # Bottone copia per il codice
+
   palette:
-    # Modalità scura (Slate + Ambra)
+    # Modalità Scura (Default)
     - scheme: slate
-      primary: amber
-      accent: amber
+      primary: teal
+      accent: purple
       toggle:
-        icon: material/paw 
+        icon: material/brightness-4
         name: Passa alla modalità chiara
-    # Modalità chiara
+
+    # Modalità Chiara (Opzionale)
     - scheme: default
-      primary: amber
-      accent: amber
+      primary: teal
+      accent: purple
       toggle:
-        icon: material/weather-sunny 
+        icon: material/brightness-7
         name: Passa alla modalità scura
 
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - search.suggest
-    - search.highlight
+  font:
+    text: Roboto    # Font molto leggibile
+    code: Roboto Mono
+
+# Aggiungi questo per caricare il CSS personalizzato (Passo 2)
+extra_css:
+  - stylesheets/extra.css
+
 
 markdown_extensions:
   - admonition
