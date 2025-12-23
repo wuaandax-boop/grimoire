@@ -35,17 +35,11 @@ plugins:
       lang: it             # Ottimizza la ricerca per l'italiano
       separator: '[\s\-\.]+' # Aiuta a cercare parole unite da trattini
 nav:
-  - 🏠 Home: index.md
-  - 🧠 Strategie: 
-      - ⚜️ Jeanne d'Arc: strategie/jeanne.md
-      - 🏯 Ottomani: strategie/ottomani.md
-      - 🌲 Rus: strategie/rus.md
-      - 🌙 Ayyubidi: strategie/ayyubidi.md
-      - 🇯🇵 Giapponesi: strategie/giapponesi.md
-      - 🐘 Delhi: strategie/delhi.md
-      - 👹 Sengoku: strategie/sengoku.md
-      - 🏛️ Bizantini: strategie/bizantini.md
-      - 🏛️ Macedoni: strategie/macedoni.md
+  - Home: index.md
+  - Strategia:
+      - ⚜️ Jeanne d'Arc:
+          - 'Tower Rush (Dark Age)': strategia/jeanne/tower_rush.md
+          - 'Wheelbarrow Rush': strategia/jeanne/wheelbarrow_rush.md
   - ⚔️ Enciclopedia Civiltà:
       - 🕌 Abbasidi: civilta/abbasidi.md
       - 🌙 Ayyubidi: civilta/ayyubidi.md

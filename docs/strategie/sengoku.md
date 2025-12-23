@@ -1,3 +1,0 @@
-# 👹 Strategie: Sengoku
-
-## 🔫 Standard Aggression
