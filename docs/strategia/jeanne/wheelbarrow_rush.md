@@ -26,7 +26,8 @@ Strategia per economia esplosiva grazie alla Carriola (Wheelbarrow) ricercata su
 | **Micro** | Il prossimo villager prodotto va al **Legno**. | 2 / **4** / 2 | Ora hai 4 vills che tagliano legna. |
 | **Micro** | Appena hanno **10 Legna** a testa: **Spostali su Pecore**. | **6** / 0 / 2 | Hai raccolto la legna per la casa "gratis". |
 | **Eroe** | JD costruisce una **Casa**, poi torna all'**Oro**. | 6 / 0 / 2 | Usa il legno appena raccolto. |
-| **Macro** | Rally point su **Oro** fino a **4 unità totali** (3 Vills + JD). | 6 / 0 / **4** (3+JD) | JD conta come raccoglitore. |
+| **Macro** | **Rally point su Cibo** per 1 Villager. | **7** / 0 / 2 | **Nuovo step:** Garantisce flusso di cibo costante. |
+| **Macro** | Rally point su **Oro** fino a **4 unità totali** (3 Vills + JD). | 7 / 0 / **4** | JD conta come raccoglitore. |
 | **Macro** | Rally point su **Cibo**. | **X** / 0 / 4 | Continua finché non hai le risorse per passare. |
 | **Age Up** | Passaggio con **2 Costruttori** (1 Vill + JD). | - | Costruisci la **Scuola di Cavalleria**. |
 | **Transizione** | Prendi **3** da Cibo -> Spostali a **Legno**. | - | Costruisci una Falegnameria ora. |
