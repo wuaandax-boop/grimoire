@@ -1,26 +1,24 @@
 site_name: "Dax's Grimoire"
+site_url: https://wuaandax-boop.github.io/grimoire/ # IMPORTANTE: Sostituisci col tuo vero URL GitHub
 
 theme:
   name: material
   language: it
   features:
-    - navigation.tabs        # Menu in alto orizzontale (più pulito)
-    - navigation.sections    # Raggruppa le sezioni
-    - toc.integrate          # Indice integrato a sinistra
-    - navigation.top         # Bottone "Torna su"
-    - search.suggest         # Suggerimenti ricerca
-    - content.code.copy      # Bottone copia per il codice
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - content.code.copy
 
   palette:
-    # Modalità Scura (Default)
     - scheme: slate
-      primary: teal
-      accent: purple
+      primary: black # Cambiato in black per far risaltare l'oro
+      accent: grey
       toggle:
         icon: material/brightness-4
         name: Passa alla modalità chiara
-
-    # Modalità Chiara (Opzionale)
     - scheme: default
       primary: teal
       accent: purple
@@ -28,24 +26,18 @@ theme:
         icon: material/brightness-7
         name: Passa alla modalità scura
 
-  font:
-    text: Roboto    # Font molto leggibile
-    code: Roboto Mono
-
-# Aggiungi questo per caricare il CSS personalizzato (Passo 2)
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/stats.js
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list # Necessario per gestire meglio le immagini e classi CSS
 
-plugins:
-  - search:
-      lang: it             # Ottimizza la ricerca per l'italiano
-      separator: '[\s\-\.]+' # Aiuta a cercare parole unite da trattini
 nav:
   - Home: index.md
   - Strategia:
@@ -70,8 +62,5 @@ nav:
       - ⛩️ Japan:
           - 'Fast Castle': strategia/japan/fc.md
           - 'Standard': strategia/japan/standard.md
-      - 🏯 Sengoku :
+      - 🏯 Sengoku:
           - 'Standard': strategia/sengoku/standard.md
-
-extra_javascript:
-  - javascripts/stats.js
