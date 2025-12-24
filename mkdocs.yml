@@ -1,66 +1,47 @@
 site_name: "Dax's Grimoire"
-site_url: https://wuaandax-boop.github.io/grimoire/ # IMPORTANTE: Sostituisci col tuo vero URL GitHub
+site_url: https://wuaandax-boop.github.io/grimoire/
 
 theme:
   name: material
   language: it
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - content.code.copy
-
   palette:
     - scheme: slate
-      primary: black # Cambiato in black per far risaltare l'oro
-      accent: grey
-      toggle:
-        icon: material/brightness-4
-        name: Passa alla modalità chiara
-    - scheme: default
-      primary: teal
-      accent: purple
-      toggle:
-        icon: material/brightness-7
-        name: Passa alla modalità scura
+      primary: black
+      accent: gold
+  features:
+    - navigation.top
+    - search.suggest
 
 extra_css:
   - stylesheets/extra.css
-
 extra_javascript:
   - javascripts/stats.js
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list # Necessario per gestire meglio le immagini e classi CSS
 
 nav:
   - Home: index.md
   - Strategia:
-      - 🏰 Panoramica: strategia/index.md
-      - 🛡️ Jeanne d'Arc:
-          - 'Tower Rush (Dark Age)': strategia/jeanne/tower_rush.md
-          - 'Wheelbarrow Rush': strategia/jeanne/wheelbarrow_rush.md
-      - 🐻 Rus:
-          - '2 Hunting Cabin': strategia/rus/2hc.md
-          - '3 Hunting Cabin': strategia/rus/3hc.md
-      - 🐪 Ayyubids:
-          - 'Vortix': strategia/ayyubids/vortix.md
-      - 💣 Ottoman:
-          - 'ASAP School': strategia/ottoman/asap-school.md
-          - 'Standard': strategia/ottoman/standard.md
-      - 🏛️ Macedon:
-          - 'Standard': strategia/macedon/standard.md
-          - 'IDK': strategia/macedon/idk.md
-      - 🍇 Byzantines:
-          - 'Standard': strategia/byz/standard.md
-          - 'IDK': strategia/byz/idk.md
-      - ⛩️ Japan:
-          - 'Fast Castle': strategia/japan/fc.md
-          - 'Standard': strategia/japan/standard.md
-      - 🏯 Sengoku:
-          - 'Standard': strategia/sengoku/standard.md
+    - Panoramica: strategia/index.md
+    - Jeanne d'Arc:
+        - 'Indice': strategia/jeanne/index.md
+        - 'Tower Rush': strategia/jeanne/tower_rush.md
+        - 'Wheelbarrow Rush': strategia/jeanne/wheelbarrow_rush.md
+    - Rus:
+        - 'Indice': strategia/rus/index.md
+        - '2 Hunting Cabin': strategia/rus/2hc.md
+        - '3 Hunting Cabin': strategia/rus/3hc.md
+    - Ayyubids:
+        - 'Vortix': strategia/ayyubids/vortix.md
+    - Ottoman:
+        - 'ASAP School': strategia/ottoman/asap-school.md
+        - 'Standard': strategia/ottoman/standard.md
+    - Macedon:
+        - 'Standard': strategia/macedon/standard.md
+        - 'IDK': strategia/macedon/idk.md
+    - Byzantines:
+        - 'Standard': strategia/byz/standard.md
+        - 'IDK': strategia/byz/idk.md
+    - Japan:
+        - 'Fast Castle': strategia/japan/fc.md
+        - 'Standard': strategia/japan/standard.md
+    - Sengoku:
+        - 'Standard': strategia/sengoku/standard.md
