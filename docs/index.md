@@ -1,19 +1,33 @@
-# 🎄 Dax's Grimoire 🎄
+---
+hide:
+  - navigation
+  - toc
+---
 
+<div align="center" style="margin-top: 20px; margin-bottom: 30px;">
 
-# Benvenuto nel Grimorio
+<h1 style="font-family: 'Cinzel', serif; font-size: 3.5rem; color: #d4af37; text-shadow: 0 0 20px rgba(212, 175, 55, 0.4); margin-bottom: 0; text-transform: uppercase;">
+  DAX'S GRIMOIRE
+</h1>
 
-Questa è la raccolta definitiva di strategie, build order e analisi per Age of Empires IV.
+<p style="font-family: 'Cinzel', serif; font-size: 1.1rem; letter-spacing: 4px; color: #888; text-transform: uppercase; margin-top: 5px;">
+  L'Arsenale Strategico Definitivo
+</p>
+
+<img src="assets/divider.png" width="300" style="opacity: 0.9; filter: drop-shadow(0 0 5px #d4af37); margin: 20px 0;">
+
+<p style="font-size: 1.2rem; line-height: 1.6; color: #eee; max-width: 650px;">
+  Benvenuto, Comandante.<br>
+  Questo tomo custodisce la conoscenza necessaria per dominare le Ranked.
+</p>
+
+</div>
 
 <a href="strategia/" class="main-cta-button">
   Entra nel Grimorio
 </a>
 
 ---
-
-### Ultime novità
-* Aggiunte strategie per **Golden Horde** e **Mongol**.
-* Aggiornato il widget delle statistiche.
 
 ??? info "⌨️ Tabella Hotkeys (Clicca per espandere)"
     Ecco i comandi rapidi essenziali.
@@ -86,4 +100,3 @@ Questa è la raccolta definitiva di strategie, build order e analisi per Age of 
     VISUALIZZA PROFILO COMPLETO ↗
   </a>
 </div>
-

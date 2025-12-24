@@ -1,213 +1,254 @@
 /* ==========================================================================
-   1. SFONDO E TEMA GENERALE
+   DAX'S GRIMOIRE - FINAL CSS (Mobile Clean / Desktop Tabs)
    ========================================================================== */
-/* --- SFONDO E TEMA COORDINATO --- */
+
+/* 1. IMPORT FONT FANTASY */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
+
+/* ==========================================================================
+   2. SFONDO E TEMA "GRIMOIRE"
+   ========================================================================== */
 body {
-  /* Sfondo ufficiale con overlay scuro per leggibilità */
   background: 
-    linear-gradient(rgba(18, 18, 23, 0.7), rgba(18, 18, 23, 0.7)),
+    radial-gradient(circle at center, rgba(18, 18, 23, 0.4) 0%, rgba(0, 0, 0, 0.95) 100%),
     url('https://images.contentstack.io/v3/assets/blt5e6e015d9a099831/blt724d26279f60d691/61560e2069695d3369877209/AoEIV_Screenshot_Large_Scale_Siege.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 
-/* Pannello centrale trasparente e moderno */
+/* Contenitore principale del testo (semi-trasparente) */
 [data-md-color-scheme="slate"] .md-main__inner {
-  background-color: rgba(20, 25, 30, 0.8) !important;
-  backdrop-filter: blur(8px);
+  background-color: rgba(10, 12, 16, 0.90) !important;
+  backdrop-filter: blur(10px);
   border-radius: 12px;
-  border: 1px solid rgba(212, 175, 55, 0.1);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  margin-top: 20px;
 }
 
-/* Accenti Oro per i link e navigazione */
+/* Colori principali */
 :root {
   --md-primary-fg-color: #d4af37 !important;
   --md-accent-fg-color: #d4af37 !important;
+  --md-typeset-a-color: #d4af37 !important;
 }
-
-.md-nav__link--active {
-  color: #d4af37 !important;
-  font-weight: bold;
-}
-
-/* Sidebar e Header trasparenti */
-.md-header { background-color: rgba(18, 18, 23, 0.9) !important; }
-.md-tabs { background-color: rgba(18, 18, 23, 0.8) !important; }
 
 /* ==========================================================================
-   2. WIDGET AOE STATS (BASE)
+   3. GESTIONE LAYOUT & NAVIGAZIONE (IL FIX CHE VOLEVI)
    ========================================================================== */
+
+/* A. RIMUOVIAMO SEMPRE LE SIDEBAR LATERALI (Sia PC che Mobile) */
+.md-sidebar--primary,   /* Menu Sinistra */
+.md-sidebar--secondary  /* Indice Destra */
+{
+    display: none !important;
+}
+
+/* B. UCCIDIAMO IL TASTO MENU (HAMBURGER) */
+/* Questo nasconde le tre lineette in alto a sinistra. Sparite per sempre. */
+.md-header__button.md-icon[for="__drawer"] {
+    display: none !important;
+}
+
+/* C. LAYOUT PER PC (Schermi grandi) */
+@media screen and (min-width: 1220px) {
+    .md-content {
+        max-width: 1200px !important;
+        margin: 0 auto !important;
+        padding-right: 260px !important; /* Spazio per le Stats sulla destra */
+    }
+}
+
+/* D. LAYOUT PER MOBILE (Schermi piccoli) */
+@media screen and (max-width: 1219px) {
+    .md-content {
+        max-width: 100% !important;
+        padding: 0 15px !important;
+        margin: 0 !important;
+    }
+    
+    /* Nascondiamo anche le TAB in alto su mobile per pulizia totale */
+    .md-tabs {
+        display: none !important;
+    }
+}
+
+/* ==========================================================================
+   4. MENU IN ALTO (SOLO VISIBILE SU PC)
+   ========================================================================== */
+.md-tabs {
+    background: rgba(5, 5, 8, 0.9) !important;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.md-tabs__link {
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.7) !important;
+    transition: all 0.3s ease;
+}
+
+.md-tabs__link:hover {
+    color: #fff !important;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.md-tabs__item--active .md-tabs__link {
+    color: #d4af37 !important; /* Oro */
+    text-shadow: 0 0 15px rgba(212, 175, 55, 0.8);
+}
+
+/* ==========================================================================
+   5. HEADER LOGO E TITOLO (STILE GRIMOIRE)
+   ========================================================================== */
+.md-header { 
+    background-color: rgba(5, 5, 8, 0.95) !important; 
+    border-bottom: none;
+}
+
+/* Logo (Lupo/Cavaliere) */
+.md-header__button.md-logo {
+    color: #d4af37 !important;
+    filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.5));
+    transition: transform 0.3s ease;
+}
+.md-header__button.md-logo:hover {
+    transform: scale(1.1) rotate(-5deg);
+    opacity: 1 !important;
+}
+
+/* Titolo del Sito */
+.md-header__title {
+    font-family: 'Cinzel', serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #d4af37 !important;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+/* Nasconde sottotitoli inutili */
+.md-header__topic { font-weight: 700 !important; }
+
+/* ==========================================================================
+   6. BREADCRUMBS (PERCORSO ORO)
+   ========================================================================== */
+.md-typeset .md-breadcrumbs {
+    display: flex !important;
+    margin-top: 15px; margin-bottom: 20px; padding-bottom: 10px;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    font-size: 0.8rem;
+    
+    /* Per mobile: permetti lo scroll orizzontale se il percorso è lungo */
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.md-breadcrumbs__item { text-transform: uppercase; letter-spacing: 1px; color: #888; }
+.md-breadcrumbs__link { color: #a0a0a0 !important; text-decoration: none; }
+.md-breadcrumbs__link:hover { color: #d4af37 !important; }
+
+/* L'ultima voce (Dove sei ora) */
+.md-breadcrumbs__item:last-child {
+    color: #d4af37 !important; font-weight: 900 !important;
+    text-shadow: 0 0 12px rgba(212, 175, 55, 0.3);
+}
+/* Fix extra: se c'è uno span dentro l'ultimo elemento */
+.md-breadcrumbs__item:last-child span { color: #d4af37 !important; }
+
+
+/* ==========================================================================
+   7. STYLE DELLE CARD E WIDGET STATS
+   ========================================================================== */
+
+/* Cards delle Civiltà */
+.civ-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 15px; margin-top: 30px;
+}
+.civ-card {
+    background: rgba(18, 18, 23, 0.6) !important;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 8px; padding: 15px;
+    display: flex; align-items: center; gap: 15px;
+    text-decoration: none !important; transition: all 0.3s ease;
+}
+.civ-card:hover {
+    background: rgba(212, 175, 55, 0.1) !important;
+    border-color: #d4af37; transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+.civ-card img { width: 55px; height: auto; border-radius: 4px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.8)); }
+.civ-info { display: flex; flex-direction: column; }
+.civ-name { color: #d4af37; font-weight: 800; font-size: 1.1rem; letter-spacing: 0.5px; }
+.civ-desc { color: #aaa; font-size: 0.75rem; margin-top: 2px; }
+
+/* Widget Stats (PAVONCELLA) */
 .aoe-sidebar {
   font-family: 'Segoe UI', sans-serif;
-  z-index: 90;
-  background: rgba(18, 18, 23, 0.90);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(212, 175, 55, 0.4);
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+  background: rgba(10, 10, 15, 0.95);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+  display: flex; flex-direction: column; overflow: hidden;
   transition: all 0.3s ease;
 }
 
-/* Header e Stagione Dorata */
-.sidebar-header {
-  background: rgba(212, 175, 55, 0.1); 
-  padding: 12px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+/* Posizionamento Stats: Fisso su PC, Sotto su Mobile */
+@media (min-width: 1220px) {
+  .aoe-sidebar { position: fixed; top: 120px; right: 20px; width: 250px; z-index: 90; }
 }
-
-.sidebar-header h3 { 
-  margin: 0; 
-  color: #d4af37; 
-  font-size: 13px; 
-  text-transform: uppercase; 
-  letter-spacing: 2px; 
-  font-weight: 800; 
-}
-
-.season-text {
-    font-size: 11px;
-    color: #d4af37 !important; /* Oro */
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 4px;
-    text-shadow: 0 0 5px rgba(212, 175, 55, 0.3);
-}
-
-/* Corpo e Sezioni */
-.sidebar-body {
-  padding: 15px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.mode-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 48%;
-}
-
-.mode-title { font-size: 9px; color: #aaa; text-transform: uppercase; margin-bottom: 4px; letter-spacing: 1px; }
-.rank-icon-container { height: 45px; margin-bottom: 4px; display: flex; align-items: center; justify-content: center;}
-.rank-img-sidebar { max-height: 100%; filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.3)); }
-
-.elo-text { font-size: 1.4rem; font-weight: 900; color: #fff; line-height: 1; font-family: 'Roboto Mono', monospace; }
-.rank-text { color: #d4af37; font-weight: bold; text-transform: uppercase; font-size: 0.7rem; margin-top: 2px;}
-
-/* Riga Stats W/L e Winrate */
-.stats-row {
-    margin-top: 8px;
-    background: rgba(0,0,0,0.2);
-    padding: 4px 8px;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-}
-
-.win-rate { font-size: 0.7rem; color: #ccc; }
-
-.wl-count {
-    font-size: 0.75rem;
-    letter-spacing: 0.5px;
-    color: #eee;
-}
-
-.w-green { color: #2ecc71 !important; font-weight: bold; }
-.l-red { color: #e74c3c !important; font-weight: bold; }
-
-/* Link Profilo */
-.profile-link-btn {
-  display: block; text-align: center; background: rgba(0,0,0,0.3);
-  color: #888; font-size: 10px; text-decoration: none; padding: 8px;
-  border-top: 1px solid rgba(255,255,255,0.05);
-}
-.profile-link-btn:hover { background: rgba(212, 175, 55, 0.1); color: #fff; }
-
-/* ==========================================================================
-   3. POSIZIONAMENTO DESKTOP
-   ========================================================================== */
-@media (min-width: 1000px) {
-  .md-content {
-    margin-right: 280px !important;
-    max-width: calc(100% - 300px);
+@media (max-width: 1219px) {
+  .aoe-sidebar { 
+      position: relative; width: 100%; max-width: 400px; 
+      margin: 40px auto; /* Spazio sopra e sotto */
+      flex-direction: row; z-index: 10; 
   }
-
-  .aoe-sidebar {
-    position: fixed;
-    top: 48px;       
-    right: 20px;     
-    width: 250px;
-    height: auto;    
-    border-radius: 12px; 
-  }
-}
-
-/* ==========================================================================
-   4. VERSIONE MOBILE
-   ========================================================================== */
-@media (max-width: 999px) {
-  .aoe-sidebar {
-    position: relative;
-    width: 95%;
-    max-width: 400px;
-    margin: 10px auto 25px auto;
-    flex-direction: row;
-    display: flex;
-  }
-  .sidebar-header { display: none; }
-  .profile-link-btn { display: none; }
+  .sidebar-header, .profile-link-btn { display: none; }
   .sidebar-body { flex-direction: row; width: 100%; padding: 10px; justify-content: space-around; }
   .mode-section { border-right: 1px solid rgba(255,255,255,0.1); width: 48%; }
   .mode-section:last-child { border-right: none; }
 }
 
+/* Dettagli interni Stats */
+.sidebar-header { background: rgba(212, 175, 55, 0.05); padding: 12px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.sidebar-header h3 { margin: 0; color: #d4af37; font-size: 13px; text-transform: uppercase; letter-spacing: 2px; font-weight: 800; }
+.season-text { font-size: 11px; color: #d4af37; letter-spacing: 2px; font-weight: bold; margin-top: 4px; }
+.sidebar-body { padding: 15px; display: flex; justify-content: space-around; align-items: center; }
+.mode-section { display: flex; flex-direction: column; align-items: center; width: 48%; }
+.mode-title { font-size: 9px; color: #888; text-transform: uppercase; margin-bottom: 4px; letter-spacing: 1px; }
+.rank-icon-container { height: 45px; margin-bottom: 4px; display: flex; align-items: center; justify-content: center; }
+.rank-img-sidebar { max-height: 100%; filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.2)); }
+.elo-text { font-size: 1.4rem; font-weight: 900; color: #fff; line-height: 1; font-family: 'Roboto Mono', monospace; }
+.rank-text { color: #d4af37; font-weight: bold; text-transform: uppercase; font-size: 0.7rem; margin-top: 2px;}
+.stats-row { margin-top: 8px; background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px; display: flex; flex-direction: column; align-items: center; }
+.win-rate { font-size: 0.7rem; color: #ccc; }
+.wl-count { font-size: 0.75rem; color: #eee; }
+.w-green { color: #2ecc71; font-weight: bold; }
+.l-red { color: #e74c3c; font-weight: bold; }
+.profile-link-btn { display: block; text-align: center; background: rgba(0,0,0,0.3); color: #888; font-size: 10px; text-decoration: none; padding: 8px; border-top: 1px solid rgba(255,255,255,0.05); }
+.profile-link-btn:hover { background: rgba(212, 175, 55, 0.1); color: #fff; }
 
-.civ-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 15px;
-    margin-top: 30px;
+/* Scrollbar scura */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background-color: #333; border-radius: 4px; }
+::-webkit-scrollbar-track { background-color: #111; }
+
+/* Bottone Call To Action */
+.main-cta-button {
+    display: flex; justify-content: center; align-items: center;
+    width: 100%; max-width: 350px; margin: 40px auto; padding: 18px 25px;
+    background: linear-gradient(180deg, rgba(30,30,35,1) 0%, rgba(10,10,12,1) 100%);
+    border: 2px solid #d4af37; border-radius: 6px;
+    color: #d4af37 !important; font-family: 'Segoe UI', sans-serif; font-weight: 900;
+    text-transform: uppercase; letter-spacing: 2px; text-decoration: none !important;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.1), inset 0 0 20px rgba(0,0,0,0.8);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-
-.civ-card {
-    background: rgba(18, 18, 23, 0.8) !important;
-    border: 1px solid rgba(212, 175, 55, 0.3);
-    border-radius: 10px;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    text-decoration: none !important;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+.main-cta-button:hover {
+    transform: translateY(-5px); box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3), inset 0 0 10px rgba(212, 175, 55, 0.2);
+    border-color: #fff; color: #fff !important; text-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
-
-.civ-card:hover {
-    background: rgba(212, 175, 55, 0.15) !important;
-    border-color: #d4af37;
-    transform: translateY(-4px) scale(1.02);
-    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
-}
-
-.civ-card img {
-    width: 55px;
-    height: auto;
-    border-radius: 4px;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
-}
-
-.civ-info { display: flex; flex-direction: column; }
-.civ-name { color: #d4af37; font-weight: 800; font-size: 1.1rem; letter-spacing: 0.5px; }
-.civ-desc { color: #888; font-size: 0.75rem; margin-top: 2px; }
