@@ -1,9 +1,7 @@
 /* ==========================================================================
    1. SFONDO E TEMA GENERALE
    ========================================================================== */
-/* --- SFONDO E TEMA COORDINATO --- */
 body {
-  /* Sfondo ufficiale con overlay scuro per leggibilità */
   background: 
     linear-gradient(rgba(18, 18, 23, 0.7), rgba(18, 18, 23, 0.7)),
     url('https://images.contentstack.io/v3/assets/blt5e6e015d9a099831/blt724d26279f60d691/61560e2069695d3369877209/AoEIV_Screenshot_Large_Scale_Siege.jpg');
@@ -12,7 +10,6 @@ body {
   background-position: center;
 }
 
-/* Pannello centrale trasparente e moderno */
 [data-md-color-scheme="slate"] .md-main__inner {
   background-color: rgba(20, 25, 30, 0.8) !important;
   backdrop-filter: blur(8px);
@@ -21,7 +18,6 @@ body {
   box-shadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
-/* Accenti Oro per i link e navigazione */
 :root {
   --md-primary-fg-color: #d4af37 !important;
   --md-accent-fg-color: #d4af37 !important;
@@ -41,7 +37,6 @@ body {
    ========================================================================== */
 .aoe-sidebar {
   font-family: 'Segoe UI', sans-serif;
-  z-index: 90;
   background: rgba(18, 18, 23, 0.90);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(212, 175, 55, 0.4);
@@ -53,7 +48,6 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Header e Stagione Dorata */
 .sidebar-header {
   background: rgba(212, 175, 55, 0.1); 
   padding: 12px;
@@ -65,17 +59,12 @@ body {
 }
 
 .sidebar-header h3 { 
-  margin: 0; 
-  color: #d4af37; 
-  font-size: 13px; 
-  text-transform: uppercase; 
-  letter-spacing: 2px; 
-  font-weight: 800; 
+  margin: 0; color: #d4af37; font-size: 13px; text-transform: uppercase; letter-spacing: 2px; font-weight: 800; 
 }
 
 .season-text {
     font-size: 11px;
-    color: #d4af37 !important; /* Oro */
+    color: #d4af37 !important;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
@@ -83,19 +72,12 @@ body {
     text-shadow: 0 0 5px rgba(212, 175, 55, 0.3);
 }
 
-/* Corpo e Sezioni */
 .sidebar-body {
-  padding: 15px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  padding: 15px; display: flex; justify-content: space-around; align-items: center;
 }
 
 .mode-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 48%;
+  display: flex; flex-direction: column; align-items: center; width: 48%;
 }
 
 .mode-title { font-size: 9px; color: #aaa; text-transform: uppercase; margin-bottom: 4px; letter-spacing: 1px; }
@@ -105,30 +87,16 @@ body {
 .elo-text { font-size: 1.4rem; font-weight: 900; color: #fff; line-height: 1; font-family: 'Roboto Mono', monospace; }
 .rank-text { color: #d4af37; font-weight: bold; text-transform: uppercase; font-size: 0.7rem; margin-top: 2px;}
 
-/* Riga Stats W/L e Winrate */
 .stats-row {
-    margin-top: 8px;
-    background: rgba(0,0,0,0.2);
-    padding: 4px 8px;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
+    margin-top: 8px; background: rgba(0,0,0,0.2); padding: 4px 8px; border-radius: 6px;
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
 }
 
 .win-rate { font-size: 0.7rem; color: #ccc; }
-
-.wl-count {
-    font-size: 0.75rem;
-    letter-spacing: 0.5px;
-    color: #eee;
-}
-
+.wl-count { font-size: 0.75rem; letter-spacing: 0.5px; color: #eee; }
 .w-green { color: #2ecc71 !important; font-weight: bold; }
 .l-red { color: #e74c3c !important; font-weight: bold; }
 
-/* Link Profilo */
 .profile-link-btn {
   display: block; text-align: center; background: rgba(0,0,0,0.3);
   color: #888; font-size: 10px; text-decoration: none; padding: 8px;
@@ -137,77 +105,125 @@ body {
 .profile-link-btn:hover { background: rgba(212, 175, 55, 0.1); color: #fff; }
 
 /* ==========================================================================
-   3. POSIZIONAMENTO DESKTOP
+   3. RESPONSIVE (DESKTOP)
    ========================================================================== */
 @media (min-width: 1000px) {
   .md-content {
     margin-right: 280px !important;
     max-width: calc(100% - 300px);
   }
-
   .aoe-sidebar {
     position: fixed;
-    top: 48px;       
-    right: 20px;     
-    width: 250px;
-    height: auto;    
-    border-radius: 12px; 
+    top: 64px; right: 20px; width: 250px; z-index: 90;
   }
 }
 
 /* ==========================================================================
-   4. VERSIONE MOBILE
+   4. HUB STRATEGIE (CIV CARDS)
    ========================================================================== */
-@media (max-width: 999px) {
-  .aoe-sidebar {
-    position: relative;
-    width: 95%;
-    max-width: 400px;
-    margin: 10px auto 25px auto;
-    flex-direction: row;
-    display: flex;
-  }
-  .sidebar-header { display: none; }
-  .profile-link-btn { display: none; }
-  .sidebar-body { flex-direction: row; width: 100%; padding: 10px; justify-content: space-around; }
-  .mode-section { border-right: 1px solid rgba(255,255,255,0.1); width: 48%; }
-  .mode-section:last-child { border-right: none; }
-}
-
-
 .civ-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 15px;
-    margin-top: 30px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 15px; margin-top: 30px;
 }
 
 .civ-card {
     background: rgba(18, 18, 23, 0.8) !important;
     border: 1px solid rgba(212, 175, 55, 0.3);
-    border-radius: 10px;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    border-radius: 10px; padding: 15px;
+    display: flex; align-items: center; gap: 15px;
     text-decoration: none !important;
     transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .civ-card:hover {
     background: rgba(212, 175, 55, 0.15) !important;
-    border-color: #d4af37;
-    transform: translateY(-4px) scale(1.02);
+    border-color: #d4af37; transform: translateY(-4px) scale(1.02);
     box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
 }
 
-.civ-card img {
-    width: 55px;
-    height: auto;
-    border-radius: 4px;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
-}
-
+.civ-card img { width: 55px; height: auto; border-radius: 4px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
 .civ-info { display: flex; flex-direction: column; }
 .civ-name { color: #d4af37; font-weight: 800; font-size: 1.1rem; letter-spacing: 0.5px; }
 .civ-desc { color: #888; font-size: 0.75rem; margin-top: 2px; }
+
+/* ==========================================================================
+   5. FIX DEFINITIVO SBLOCCO MENU MOBILE
+   ========================================================================== */
+@media (max-width: 999px) {
+  /* Forza l'header a essere attivo e non sbiadito */
+  .md-header {
+    position: fixed !important;
+    z-index: 5000 !important;
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+
+  /* Rendi l'icona dell'hamburger menu dorata e cliccabile */
+  .md-header__button[for="__drawer"] {
+    z-index: 5001 !important;
+    pointer-events: auto !important;
+    color: #d4af37 !important; 
+    opacity: 1 !important;
+  }
+
+  /* Evita che il "velo" scuro blocchi i click quando il menu è CHIUSO */
+  .md-overlay {
+    display: none !important;
+  }
+
+  /* Mostra il velo solo quando il menu è effettivamente APERTO */
+  [data-md-toggle="drawer"]:checked ~ .md-overlay {
+    display: block !important;
+    z-index: 1500 !important;
+  }
+
+  /* Widget spostato sotto l'header per non interferire */
+  .aoe-sidebar {
+    position: relative !important;
+    width: 95%; max-width: 400px;
+    margin: 80px auto 25px auto !important;
+    flex-direction: row; display: flex;
+    z-index: 10 !important;
+    pointer-events: auto !important;
+  }
+
+  .sidebar-header, .profile-link-btn { display: none; }
+  .sidebar-body { flex-direction: row; width: 100%; padding: 10px; justify-content: space-around; }
+  .mode-section { border-right: 1px solid rgba(255,255,255,0.1); width: 48%; }
+  .mode-section:last-child { border-right: none; }
+
+  /* Garantisce che il menu laterale sia sopra al widget quando aperto */
+  .md-sidebar--primary {
+    z-index:
+
+    /* --- PULSANTE HOME (CTA) --- */
+.main-cta-button {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #d4af37 0%, #aa8a2e 100%);
+    color: #000 !important;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-decoration: none !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main-cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
+    background: #d4af37;
+}
+
+/* Pulizia finale: nascondiamo il menu se proprio non serve */
+.md-header__button.md-icon[for="__drawer"] {
+    display: none !important;
+}
