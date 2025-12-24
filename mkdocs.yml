@@ -3,45 +3,88 @@ site_url: https://wuaandax-boop.github.io/grimoire/
 
 theme:
   name: material
+  logo: assets/logo.svg
   language: it
+  
+  # --- SOLO MODALITÀ SCURA ---
   palette:
-    - scheme: slate
-      primary: black
-      accent: gold
+    scheme: slate
+    primary: black
+    accent: gold
+  
   features:
+    - navigation.tabs      # <--- FONDAMENTALE: Attiva il menu orizzontale in alto
     - navigation.top
     - search.suggest
+    - search.highlight
+    - navigation.indexes
+    - navigation.path
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_css:
   - stylesheets/extra.css
+
 extra_javascript:
+  - https://code.jquery.com/jquery-3.6.0.min.js
   - javascripts/stats.js
 
 nav:
   - Home: index.md
   - Strategia:
     - Panoramica: strategia/index.md
+    
+    # --- VECCHIE CIVILTÀ ---
     - Jeanne d'Arc:
-        - 'Indice': strategia/jeanne/index.md
+        - 'Menu': strategia/jeanne/index.md
         - 'Tower Rush': strategia/jeanne/tower_rush.md
         - 'Wheelbarrow Rush': strategia/jeanne/wheelbarrow_rush.md
     - Rus:
-        - 'Indice': strategia/rus/index.md
+        - 'Menu': strategia/rus/index.md
         - '2 Hunting Cabin': strategia/rus/2hc.md
         - '3 Hunting Cabin': strategia/rus/3hc.md
     - Ayyubids:
+        - 'Menu': strategia/ayyubids/index.md
         - 'Vortix': strategia/ayyubids/vortix.md
     - Ottoman:
+        - 'Menu': strategia/ottoman/index.md
         - 'ASAP School': strategia/ottoman/asap-school.md
         - 'Standard': strategia/ottoman/standard.md
     - Macedon:
+        - 'Menu': strategia/macedon/index.md
         - 'Standard': strategia/macedon/standard.md
         - 'IDK': strategia/macedon/idk.md
     - Byzantines:
+        - 'Menu': strategia/byz/index.md
         - 'Standard': strategia/byz/standard.md
         - 'IDK': strategia/byz/idk.md
     - Japan:
+        - 'Menu': strategia/japan/index.md
         - 'Fast Castle': strategia/japan/fc.md
         - 'Standard': strategia/japan/standard.md
     - Sengoku:
+        - 'Menu': strategia/sengoku/index.md
         - 'Standard': strategia/sengoku/standard.md
+
+    # --- NUOVE CIVILTÀ ---
+    - Golden Horde:
+        - 'Menu': strategia/golden_horde/index.md
+        - 'Standard': strategia/golden_horde/standard.md
+        - 'Test': strategia/golden_horde/test.md
+    - Mongol:
+        - 'Menu': strategia/mongol/index.md
+        - 'Standard': strategia/mongol/standard.md
+        - 'Test': strategia/mongol/test.md
+    - KT:
+        - 'Menu': strategia/kt/index.md
+        - 'Standard': strategia/kt/standard.md
+        - 'Test': strategia/kt/test.md

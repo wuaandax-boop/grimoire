@@ -1,10 +1,19 @@
 # 🎄 Dax's Grimoire 🎄
 
+
+# Benvenuto nel Grimorio
+
+Questa è la raccolta definitiva di strategie, build order e analisi per Age of Empires IV.
+
 <a href="strategia/" class="main-cta-button">
-  ⚔️ ENTRA NELLE STRATEGIE ⚔️
+  Entra nel Grimorio
 </a>
 
 ---
+
+### Ultime novità
+* Aggiunte strategie per **Golden Horde** e **Mongol**.
+* Aggiornato il widget delle statistiche.
 
 ??? info "⌨️ Tabella Hotkeys (Clicca per espandere)"
     Ecco i comandi rapidi essenziali.

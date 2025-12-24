@@ -1,70 +1,94 @@
-# ⚔️ Libreria delle Strategie
+# Hub Strategico
 
-Seleziona una civiltà per consultare i Build Order e le tattiche specifiche del Grimoire.
+Seleziona una civiltà per accedere alle build order e alle guide specifiche.
 
 <div class="civ-grid">
 
-  <a href="jeanne/tower_rush/" class="civ-card">
-    <img src="https://aoe4world.com/images/flags/jeanne-d-arc.png">
+  <a href="golden_horde/" class="civ-card">
+    <img src="../assets/civs/golden_horde.png" alt="Golden Horde" onerror="this.src='https://placehold.co/60x60/gold/black?text=GH'">
     <div class="civ-info">
-      <span class="civ-name">Jeanne d'Arc</span>
-      <span class="civ-desc">Variante Francese (DLC)</span>
+      <div class="civ-name">Golden Horde</div>
+      <div class="civ-desc">Nomadi / Cavalleria</div>
     </div>
   </a>
 
-  <a href="rus/2hc/" class="civ-card">
-    <img src="https://aoe4world.com/images/flags/rus.png">
+  <a href="mongol/" class="civ-card">
+    <img src="../assets/civs/mongol.png" alt="Mongol" onerror="this.src='https://placehold.co/60x60/gold/black?text=MO'">
     <div class="civ-info">
-      <span class="civ-name">Rus</span>
-      <span class="civ-desc">Caccia e Palizzate</span>
+      <div class="civ-name">Mongol</div>
+      <div class="civ-desc">Aggressione / Torri</div>
     </div>
   </a>
 
-  <a href="ayyubids/vortix/" class="civ-card">
-    <img src="https://aoe4world.com/images/flags/ayyubids.png">
+  <a href="kt/" class="civ-card">
+    <img src="../assets/civs/kt.png" alt="KT" onerror="this.src='https://placehold.co/60x60/gold/black?text=KT'">
     <div class="civ-info">
-      <span class="civ-name">Ayyubids</span>
-      <span class="civ-desc">Variante Abbaside (DLC)</span>
+      <div class="civ-name">Knights Templar</div>
+      <div class="civ-desc">Ordine Cavalleresco</div>
     </div>
   </a>
 
-  <a href="ottoman/asap-school/" class="civ-card">
-    <img src="https://aoe4world.com/images/flags/ottomans.png">
+  <a href="jeanne/" class="civ-card">
+    <img src="../assets/civs/jeanne.png" alt="Jeanne" onerror="this.src='https://placehold.co/60x60/gold/black?text=JD'">
     <div class="civ-info">
-      <span class="civ-name">Ottoman</span>
-      <span class="civ-desc">Giannizzeri e Grandi Bombarde</span>
+      <div class="civ-name">Jeanne d'Arc</div>
+      <div class="civ-desc">Eroe / Tempo</div>
     </div>
   </a>
 
-  <a href="byz/standard/" class="civ-card">
-    <img src="https://aoe4world.com/images/flags/byzantines.png">
+  <a href="rus/" class="civ-card">
+    <img src="../assets/civs/rus.png" alt="Rus" onerror="this.src='https://placehold.co/60x60/gold/black?text=RU'">
     <div class="civ-info">
-      <span class="civ-name">Byzantines</span>
-      <span class="civ-desc">Acquedotti e Mercenari (DLC)</span>
+      <div class="civ-name">Rus</div>
+      <div class="civ-desc">Bounty / Map Control</div>
     </div>
   </a>
 
-  <a href="japan/fc/" class="civ-card">
-    <img src="https://aoe4world.com/images/flags/japanese.png">
+  <a href="ayyubids/" class="civ-card">
+    <img src="../assets/civs/ayyubids.png" alt="Ayyubids" onerror="this.src='https://placehold.co/60x60/gold/black?text=AY'">
     <div class="civ-info">
-      <span class="civ-name">Japanese</span>
-      <span class="civ-desc">Samurai e Daimyo (DLC)</span>
+      <div class="civ-name">Ayyubids</div>
+      <div class="civ-desc">Tempo / Casino</div>
     </div>
   </a>
 
-  <a href="macedon/standard/" class="civ-card">
-    <img src="https://aoe4world.com/images/flags/byzantines.png" style="filter: brightness(1.2) contrast(1.1);">
+  <a href="ottoman/" class="civ-card">
+    <img src="../assets/civs/ottoman.png" alt="Ottoman" onerror="this.src='https://placehold.co/60x60/gold/black?text=OT'">
     <div class="civ-info">
-      <span class="civ-name">Macedon</span>
-      <span class="civ-desc">Strategie Avanzate</span>
+      <div class="civ-name">Ottoman</div>
+      <div class="civ-desc">Military Schools</div>
     </div>
   </a>
 
-  <a href="sengoku/standard/" class="civ-card">
-    <img src="https://aoe4world.com/images/flags/order-of-the-dragon.png">
+  <a href="macedon/" class="civ-card">
+    <img src="../assets/civs/macedon.png" alt="Macedon" onerror="this.src='https://placehold.co/60x60/gold/black?text=MA'">
     <div class="civ-info">
-      <span class="civ-name">Sengoku / OotD</span>
-      <span class="civ-desc">Variante HRE (DLC)</span>
+      <div class="civ-name">Macedon</div>
+      <div class="civ-desc">Phalanx / Eco</div>
+    </div>
+  </a>
+
+  <a href="byz/" class="civ-card">
+    <img src="../assets/civs/byz.png" alt="Byz" onerror="this.src='https://placehold.co/60x60/gold/black?text=BY'">
+    <div class="civ-info">
+      <div class="civ-name">Byzantines</div>
+      <div class="civ-desc">Mercenari / Olio</div>
+    </div>
+  </a>
+
+  <a href="japan/" class="civ-card">
+    <img src="../assets/civs/japan.png" alt="Japan" onerror="this.src='https://placehold.co/60x60/gold/black?text=JP'">
+    <div class="civ-info">
+      <div class="civ-name">Japan</div>
+      <div class="civ-desc">Fattorie / Samurai</div>
+    </div>
+  </a>
+
+  <a href="sengoku/" class="civ-card">
+    <img src="../assets/civs/sengoku.png" alt="Sengoku" onerror="this.src='https://placehold.co/60x60/gold/black?text=SE'">
+    <div class="civ-info">
+      <div class="civ-name">Sengoku</div>
+      <div class="civ-desc">Variant Japan</div>
     </div>
   </a>
 
