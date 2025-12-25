@@ -1,38 +1,73 @@
 # ⚜️ Jeanne d'Arc - Dark Age Tower Rush
 
-Strategia aggressiva per negare le risorse (spec. Oro) a civiltà che vogliono fare Fast Castle (HRE, Giappone) o Maliani.
-
-!!! tip "Punti di Forza"
-    - Pressione mappa immediata.
-    - Nega l'oro avversario.
-    - Ottimo contro civiltà passive.
+## 👁️ Fase 0: Scouting & Setup
+* **Scout:** Corri subito verso la base nemica. Devi individuare la posizione dell'**Oro** e della **Pietra**.
+* **Pecore:** Non perdere tempo a cercarne troppe sulla mappa, porta subito quelle vicine al TC per garantire cibo costante.
 
 ---
 
-### ⚔️ Build Order
+## 🌑 Fase 1: Apertura & JD (XP Farming)
 
-| Pop | Azione | Vills (Cibo / Legno / Oro) | Note |
-| :--- | :--- | :--- | :--- |
-| **6/6** | 5 Vills vanno al **Legno**. | 0 / 5 / 0 | JD costruisce la **Caserma**. |
-| **Eroe** | JD finita la caserma va all'**Oro**. | 0 / 5 / 0 | Serve per il primo lanciere/tecnologie. |
-| **7/10** | Nuovi vills su **Cibo**. | 1 / 5 / 0 | Costruisci casa se serve. |
-| **Micro** | Appena hai 50 Legno: lascia **2** su Legno, sposta **3** su Cibo. | 4 / 2 / 0 | Ti serve cibo per produrre vills e lancieri. |
-| **Militare** | Produci il **1° Lanciere**. | 4 / 2 / 0 | |
-| **Eroe** | JD costruisce una **Casa**, poi va al **CIBO**. | 4 / 2 / 0 | **Correzione:** JD raccoglie cibo ora. |
-| **Macro** | Rally point su **Cibo** fino a **8**. | **8** / 2 / 0 | Continua a produrre lancieri. |
-| **Macro** | Rally point su **Legno** fino a **4**. | 8 / **4** / 0 | |
-| **Macro** | Rally point su **Cibo** fino a **11-12**. | **12** / 4 / 0 | Stop produzione lancieri a 5 unità. |
-| **ATTACCO** | Prendi **1 Vill** + 5 Lancieri -> Vai all'Oro nemico. | 11 / 4 / 0 | Costruisci Outpost sull'oro nemico. |
-| **Eco** | Costruisci Falegnameria (Lumber Camp). | 11 / 4 / 0 | Appena hai il legno disponibile. |
-| **Age Up** | Sposta **6** vills su **Oro** per passaggio età. | 5 / 4 / **6** | Fallo appena hai abbastanza cibo bancato. |
-| **Transizione** | Age Up con **4** Vills. | - | Fai **Mulino** e ricerca **Carriola (Wheelbarrow)** mentre passi. |
+* **5** Vills → 🌲 **Legno** (Albero singolo vicino al TC per non camminare).
+* **1** Vill → 🥩 **Pecore** (Sotto al TC).
+* *Nessun villager costruisce nulla. Massima efficienza.*
+
+!!! danger "HERO ACTION: Jeanne d'Arc"
+    1. Costruisce la **Caserma (Barracks)** sul bordo dell'area di influenza del TC (verso il nemico).
+    2. Costruisce una **Casa**.
+    3. Va a raccogliere 🥩 **Cibo** sotto il TC.
+    *Obiettivo: Guadagnare XP dalle costruzioni per avvicinarsi al Livello 2.*
 
 ---
 
-### 🛡️ Obiettivo Feudale (Mid-Game)
+## ⚙️ Fase 2: Economia & Produzione Militare
 
-Mentre passi all'Era 2, riorganizza l'economia per sostenere la produzione militare.
+* **Nuovi Vills** → Tutti su 🥩 **Cibo**.
+* **Micro Legno (Appena hai 50🌲):**
+    * Prendi **3** vills dal Legno → Spostali a 🥩 **Cibo**.
+    * *(Ne rimangono **2** fissi al Legno per case e lance)*.
+* **Militare:** Produci il **1° Lanciere** subito.
+* **Rally Point TC:** Sempre su 🥩 **Cibo** fino ad averne **8** totali.
 
-* **Setup finale desiderato:** 15 Cibo / 10 Legno / 8 Oro
-* **Produzione:** 1 Scuderia + 2 Poligoni di tiro.
-* **Unità:** Cavalieri Reali + Arcieri.
+!!! quote "Nota Importante"
+    Produci Lancieri in continuo. Usa il "Force Drop" (tasto di deposito risorse) dei villici sul cibo se ti mancano pochi unita per non fermare la coda di produzione.
+
+---
+
+## 🏹 Fase 3: Preparazione Attacco (Il Viaggio)
+
+* Arrivato a **8** su 🥩 Cibo → Rally Point su 🌲 **Legno**.
+* Arrivato a **4** su 🌲 Legno → Rally Point su 🥩 **Cibo** (fino a 12).
+* **Gestione Risorse:** NON spendere legno per altro (no Falegnameria ancora). Ti servono **100🌲** puliti per l'Avamposto.
+* **STOP Lancieri:** Fermati a **5** unità totali.
+
+---
+
+## ⚔️ Fase 4: L'Esecuzione (Tower Drop)
+
+* **MOVE OUT:** Prendi **1 Vill** (quello con più vita) + **5 Lancieri**.
+* **TARGET:** 🪙 **Oro Nemico**. Se l'oro è sotto il TC nemico, punta alla **Legna** o alle **Bacche**.
+* **AZIONE:**
+    1. I Lancieri attaccano i villici nemici per spaventarli.
+    2. Il tuo Villager costruisce l'**Avamposto (Outpost)** attaccato alla risorsa (costo 100🌲).
+    3. Se il nemico "pull" (tira) i suoi villici per attaccarti: **COMBATTI** con i lancieri, ma **SCAPPA** col costruttore. Non farlo morire!
+
+---
+
+## 🏛️ Fase 5: Transizione Feudale
+
+* **AGE UP SETUP:** Controlla di avere un buon accumulo di Cibo ("bancato").
+    * *Solo allora:* Sposta **6** Vills da Cibo a 🪙 **Oro**.
+* **PASSAGGIO ETÀ:** Usa **4** Vills (quelli del Cibo).
+    * *Landmark:* **Scuola di Cavalleria** (School of Cavalry).
+* **Miglioramenti Immediati:**
+    1.  Appena hai 50 🪙 e 25 🌲 (mentre passi l'età o subito dopo): Ricerca **Feritoie (Arrowslits)** nell'Avamposto offensivo.
+    2.  Costruisci **Falegnameria** e **Mulino** ora che l'eco si stabilizza.
+    3.  Ricerca **Carriola** (Wheelbarrow).
+
+---
+
+### 🎯 Obiettivo Feudale (Gameplan)
+* **Jeanne:** Ora dovrebbe essere **Livello 2**. Usala per tankare i danni o curare i cavalieri.
+* **Composizione:** Produci **Cavalieri Reali** dalla Landmark + **Arcieri** dai poligoni (per uccidere i picchieri nemici).
+* **Bilanciamento Eco:** 15 🥩 / 10 🌲 / 8 🪙.

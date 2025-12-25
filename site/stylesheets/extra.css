@@ -1,17 +1,20 @@
 /* ==========================================================================
-   DAX'S GRIMOIRE - FINAL CSS (Mobile Clean / Desktop Tabs)
+   DAX'S GRIMOIRE - FINAL CSS (Smoke & Gold Bg / Mobile Fix)
    ========================================================================== */
 
 /* 1. IMPORT FONT FANTASY */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap');
 
 /* ==========================================================================
-   2. SFONDO E TEMA "GRIMOIRE"
+   2. SFONDO E TEMA "SMOKE & GOLD" (OPZIONE 2)
    ========================================================================== */
 body {
   background: 
-    radial-gradient(circle at center, rgba(18, 18, 23, 0.4) 0%, rgba(0, 0, 0, 0.95) 100%),
-    url('https://images.contentstack.io/v3/assets/blt5e6e015d9a099831/blt724d26279f60d691/61560e2069695d3369877209/AoEIV_Screenshot_Large_Scale_Siege.jpg');
+    /* Sfumatura nera ai bordi per focus centrale */
+    radial-gradient(circle at center, rgba(10, 10, 15, 0.2) 0%, #000000 100%),
+    /* Sfondo fumo e scintille dorate */
+    url('https://cdn.wallpapersafari.com/26/56/K5zZ0k.jpg');
+    
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -19,7 +22,7 @@ body {
 
 /* Contenitore principale del testo (semi-trasparente) */
 [data-md-color-scheme="slate"] .md-main__inner {
-  background-color: rgba(10, 12, 16, 0.90) !important;
+  background-color: rgba(10, 12, 16, 0.85) !important; /* Leggermente più scuro per contrasto */
   backdrop-filter: blur(10px);
   border-radius: 12px;
   border: 1px solid rgba(212, 175, 55, 0.15);
@@ -35,7 +38,7 @@ body {
 }
 
 /* ==========================================================================
-   3. GESTIONE LAYOUT & NAVIGAZIONE (IL FIX CHE VOLEVI)
+   3. GESTIONE LAYOUT & NAVIGAZIONE (MOBILE MINIMALIST / DESKTOP TABS)
    ========================================================================== */
 
 /* A. RIMUOVIAMO SEMPRE LE SIDEBAR LATERALI (Sia PC che Mobile) */
@@ -251,4 +254,22 @@ body {
 .main-cta-button:hover {
     transform: translateY(-5px); box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3), inset 0 0 10px rgba(212, 175, 55, 0.2);
     border-color: #fff; color: #fff !important; text-shadow: 0 0 8px rgba(255,255,255,0.8);
+}
+
+/* ==========================================================================
+   FIX LOGO MOBILE (Mostra il logo anche su cellulare)
+   ========================================================================== */
+
+@media screen and (max-width: 1219px) {
+    
+    /* Forza la visualizzazione del logo (di solito display:none su mobile) */
+    .md-header__button.md-logo {
+        display: flex !important;
+        margin-right: 10px; /* Spazio tra logo e titolo */
+    }
+
+    /* (Opzionale) Se il titolo è troppo lungo, riduciamo il font su mobile */
+    .md-header__title {
+        font-size: 1rem !important;
+    }
 }

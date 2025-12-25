@@ -18,7 +18,7 @@ hide:
 
 <p style="font-size: 1.2rem; line-height: 1.6; color: #eee; max-width: 650px;">
   Benvenuto, Comandante.<br>
-  Questo tomo custodisce la conoscenza necessaria per dominare le Ranked.
+  
 </p>
 
 </div>
