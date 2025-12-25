@@ -1,54 +1,82 @@
 # ⚜️ Jeanne d'Arc - Wheelbarrow Rush
 
-Strategia per economia esplosiva grazie alla Carriola (Wheelbarrow) ricercata subito in Dark Age.
-
-!!! tip "Punti di Forza"
-    - Villager più veloci e con più capacità di carico da subito.
-    - JD livella uccidendo cinghiali.
-    - Flessibile (Knight o Pro Scouts).
-
-!!! warning "Micro Legno"
-    - Fai attenzione al passaggio dove i villager raccolgono 10 legna a testa dagli alberi straggler per fare la casa senza falegnameria.
+## 👁️ Fase 0: Scouting
+* **Cinghiale:** Durante lo scouting iniziale, individua subito il **Cinghiale**. Sarà il cuore della tua economia Feudale.
+* **XP JD:** In questa build JD livella costruendo; l'obiettivo è averla pronta per il Feudale.
 
 ---
 
-### ⚔️ Build Order
+## 🌑 Fase 1: Carriola Rapida (Dark Age)
 
-| Pop | Azione | Vills (Cibo / Legno / Oro) | Note |
-| :--- | :--- | :--- | :--- |
-| **6/6** | **5** Vills sulle Pecore. | 5 / 0 / 0 | Il 6° è JD che costruisce. |
-| **Eroe** | **JD** costruisce **Mulino** -> Shift-Click Campo Minerario. | 5 / 0 / 0 | JD fa da costruttore. |
-| **Micro** | Quando il Mulino è al **60%**: togli **1 Vill** dalle pecore. | 4 / 0 / 0 | Aiuta a finire il Campo Minerario. |
-| **Eco** | Campo Minerario finito. **JD + 1 Vill raccolgono ORO**. | 4 / 0 / **2** (1+JD) | Fondamentale per i 50 oro immediati. |
-| **Tech** | Ricerca istantanea **Carriola (Wheelbarrow)**. | 4 / 0 / 2 | Appena la barra dell'oro tocca 50. |
-| **Macro** | Rally Point TC su **Pecore**. | 5 / 0 / 2 | Aspetta di avere di nuovo 5 vills su pecore. |
-| **Micro** | Appena hai **5** su pecore: prendine **3** -> vai a **Legno**. | 2 / 3 / 2 | Legno dagli alberi singoli (Straggler). |
-| **Micro** | Il prossimo villager prodotto va al **Legno**. | 2 / **4** / 2 | Ora hai 4 vills che tagliano legna. |
-| **Micro** | Appena hanno **10 Legna** a testa: **Spostali su Pecore**. | **6** / 0 / 2 | Hai raccolto la legna per la casa "gratis". |
-| **Eroe** | JD costruisce una **Casa**, poi torna all'**Oro**. | 6 / 0 / 2 | Usa il legno appena raccolto. |
-| **Macro** | **Rally point su Cibo** per 1 Villager. | **7** / 0 / 2 | **Nuovo step:** Garantisce flusso di cibo costante. |
-| **Macro** | Rally point su **Oro** fino a **4 unità totali** (3 Vills + JD). | 7 / 0 / **4** | JD conta come raccoglitore. |
-| **Macro** | Rally point su **Cibo**. | **X** / 0 / 4 | Continua finché non hai le risorse per passare. |
-| **Age Up** | Passaggio con **2 Costruttori** (1 Vill + JD). | - | Costruisci la **Scuola di Cavalleria**. |
-| **Transizione** | Prendi **3** da Cibo -> Spostali a **Legno**. | - | Costruisci una Falegnameria ora. |
-| **Macro** | Rally point su **Legno** fino a **5** vills. | X / **5** / 4 | I 2 costruttori (finito Age Up) vanno a Oro. |
-| **Macro** | Rally point torna su **Cibo**. | **X** / 5 / 6 | Target time Age Up: ~4:40 |
+* **[ 5 🥩 / 0 🌲 / 0 🪙 ]** :: Inizia con **5** Vills sulle Pecore. 
+* **[ 5 🥩 / 0 🌲 / 0 🪙 ]** :: **JD** costruisce **Mulino** → *Shift-Click* su Oro.
+
+!!! danger "HERO ACTION: Jeanne d'Arc"
+    JD è il tuo costruttore primario. Deve finire il Mulino e correre all'Oro.
+
+* **[ 4 🥩 / 0 🌲 / 2 🪙 ]** :: Quando il Mulino è al **60%**: togli **1 Vill** dalle pecore e aiuta JD a finire il Campo Minerario.
+* **[ 4 🥩 / 0 🌲 / 2 🪙 ]** :: **RESEARCH:** Appena hai **50 Oro**, clicca subito **Carriola (Wheelbarrow)** nel Mulino.
 
 ---
 
-### 🛡️ Feudale: Scegli la via
+## ⚙️ Fase 2: Il Trucco del Legno "Gratis"
 
-Appena la Landmark è finita, metti subito in coda un **Cavaliere**.
+* **[ 5 🥩 / 0 🌲 / 2 🪙 ]** :: Rally TC su Pecore finché non ne hai 5 totali lì.
+* **[ 2 🥩 / 3 🌲 / 2 🪙 ]** :: Prendi **3** vills dalle pecore → mandali a tagliare gli **alberi singoli** (Stragglers) vicino al TC.
+* **[ 2 🥩 / 4 🌲 / 2 🪙 ]** :: Il prossimo vill prodotto va al Legno (Straggler).
+* **[ 6 🥩 / 0 🌲 / 2 🪙 ]** :: **DROP-OFF:** Appena hanno raccolto **10 Legna** a testa (totale 40), rimandali tutti alle Pecore.
 
-=== "Variante Knight Spam"
-    * **Obiettivo:** Pressione costante.
-    * **JD:** Tank e supporto.
-    * **Macro:** Aggiungi una **seconda Scuderia** appena puoi.
-    * **Eco:** Bilancia pesantemente su Cibo e Oro.
+!!! tip "Micro Management"
+    **JD** lascia l'oro, costruisce la **Casa** con i 40 legno appena raccolti, poi torna all'oro.
 
-=== "Variante Pro Scouts"
-    * **Obiettivo:** Rubare i cervi (Food security).
-    * **Produzione:** Dopo il primo Cavaliere, produci **Esploratori (Scouts)**.
-    * **Tech:** Ricerca **Caccia Professionale (Pro Scouts)** nel Mulino.
-    * **Il Cinghiale:** Usa JD per uccidere il cinghiale. Sposta **5** Vills sul cinghiale.
-    * **Macro:** Bilancia l'economia **50% Cibo / 50% Oro**.
+---
+
+## 🏹 Fase 3: Age Up (Target 4:40)
+
+* **[ 7 🥩 / 0 🌲 / 2 🪙 ]** :: Prossimo vill prodotto va a 🥩 **Cibo**.
+* **[ 7 🥩 / 0 🌲 / 4 🪙 ]** :: Rally TC su 🪙 **Oro** fino ad avere 3 Vills + JD (totale 4).
+* **[ X 🥩 / 0 🌲 / 4 🪙 ]** :: Rally TC su 🥩 **Cibo** fino al passaggio.
+
+!!! info "Benchmark"
+    * **Click Age Up:** Intorno a **Pop 15**.
+    * **Target Time Feudale:** Sotto i **4:40**.
+
+---
+
+## ⚔️ Fase 4: Transizione Feudale
+
+* **PASSAGGIO ETÀ:** Usa **JD + 1 Vill** per costruire la **Scuola di Cavalleria**.
+* **[ X 🥩 / 3 🌲 / 4 🪙 ]** :: Appena clicchi l'Age Up, sposta **3** vills dal cibo al Legno e fai la **Falegnameria**.
+* **[ X 🥩 / 5 🌲 / 4 🪙 ]** :: Rally TC su Legno fino a 5 vills totali.
+* **[ X 🥩 / 5 🌲 / 6 🪙 ]** :: I 2 costruttori della Landmark (JD + Vill) vanno all'**Oro** dopo il completamento.
+
+---
+
+## 🏛️ Fase 5: Evoluzione Strategica
+
+Appena la Landmark è pronta, metti subito in coda il primo **Cavaliere Reale**.
+
+=== "⚔️ Variante Knight Spam"
+    * **Obiettivo:** Pressione asfissiante.
+    * **Macro:** Aggiungi una **seconda Scuderia** appena hai il legno.
+    * **Eco:** Bilancia pesantemente su 🥩 Cibo (Cinghiale) e 🪙 Oro.
+    * **Gameplan:** JD deve guidare ogni carica per arrivare al Livello 3.
+
+=== "🏹 Variante Pro Scouts"
+    * **Obiettivo:** Controllo totale delle fonti di cibo.
+    * **Tech:** Ricerca **Caccia Professionale** nel Mulino.
+    * **Produzione:** Dopo il 1° Cavaliere, produci **3-4 Esploratori**.
+    * **Eco:** 50% Cibo / 50% Oro.
+
+---
+
+## 🐗 Il Cinghiale (Boar Transition)
+
+Fase obbligatoria per entrambe le varianti dopo i primi minuti di Feudale:
+
+1. **Assalto:** JD (Livello 2) va al cinghiale, usa le abilità e lo uccide (tankando il danno).
+2. **Saturazione:** Sposta **8-10 Villager** sul cinghiale.
+3. **Bonus:** La **Carriola** già attiva rende la raccolta dal cinghiale la più efficiente del gioco.
+
+!!! success "Obiettivo Finale"
+    Dominio della mappa grazie a JD che tanka e Cavalieri che raidano, supportati da un'economia che non finisce mai le risorse grazie al cinghiale.
