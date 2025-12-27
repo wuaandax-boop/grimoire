@@ -29,37 +29,64 @@ hide:
 
 ---
 
-??? info "⌨️ Tabella Hotkeys (Clicca per espandere)"
-    Ecco i comandi rapidi essenziali.
-    *(Nota: La configurazione si basa sul layout "Griglia" standard)*.
+# ⌨️ Hotkeys Personalizzate (Grimorio Setup)
 
-    ### 🌍 Gestione Globale e Selezione
-    | Tasto (Default) | Azione |
-    | :--- | :--- |
-    | **Ctrl + A** | Seleziona **tutte** le unità visibili **a schermo** |
-    | **Ctrl + Shift + C** | Seleziona tutto l'Esercito (Intera Mappa) |
-    | **Ctrl + Shift + V** | Seleziona tutti gli Abitanti (Intera Mappa) |
-    | **.** *(Punto)* | Seleziona 1 Abitante Inattivo (Idle) |
-    | **Ctrl + .** | Seleziona **TUTTI** gli Abitanti Inattivi |
-    | **H** | Centra camera sul Centro Città (TC) |
+Configurazione ottimizzata per la gestione rapida.
+**Nota:** "Maiusc" corrisponde al tasto **Shift**.
 
-    ### 🌾 Gestione Economia (Cicla/Seleziona)
-    | Tasto (Default) | Azione |
-    | :--- | :--- |
-    | **Ctrl + Shift + F** | Seleziona tutti gli abitanti su **Cibo** (Food) |
-    | **Ctrl + Shift + W** | Seleziona tutti gli abitanti su **Legna** (Wood) |
-    | **Ctrl + Shift + G** | Seleziona tutti gli abitanti su **Oro** (Gold) |
-    | **Ctrl + Shift + S** | Seleziona tutti gli abitanti su **Pietra** (Stone) |
+---
 
-    ### ⚔️ Comandi e Gruppi
-    | Tasto (Default) | Azione |
-    | :--- | :--- |
-    | **A** + Click Terra | **Attack Move** (Attacca muovendosi) |
-    | **S** | **Stop** (Ferma unità / Cancella coda) |
-    | **Tab** | Cicla tra i tipi di unità nella selezione corrente |
-    | **Ctrl + [0-9]** | Crea Gruppo di Controllo |
-    | **Shift + [0-9]** | Aggiungi unità al Gruppo esistente |
+### 🌐 Comandi Globali & Selezione
 
+| Tasto | Azione | Note |
+| :--- | :--- | :--- |
+| **Mouse 3** (Rotella) | **Centra Notifica** | Fondamentale per saltare subito all'evento. |
+| **Alt + V** | **Ping** | Segnala sulla mappa agli alleati. |
+| **Ctrl + A** | **Seleziona Tutto** (a schermo) | Solo unità visibili. |
+| **Ctrl + Maiusc + V** | **Tutti gli Abitanti** | Seleziona ogni villager sulla mappa (anche idle). |
+| **Ctrl + Backspace** | **Rimuovi dal Gruppo** | Toglie l'unità selezionata dal gruppo di controllo attuale. |
+
+---
+
+### 🥩 Gestione Economia (Villagers)
+
+Questi comandi servono per scorrere ciclicamente i villager che stanno raccogliendo una risorsa specifica.
+
+| Tasto | Risorsa / Azione |
+| :--- | :--- |
+| **Ctrl + Q** | Scorri Abitanti al **Cibo** 🥩 |
+| **Ctrl + W** | Scorri Abitanti al **Legno** 🌲 |
+| **Ctrl + E** | Scorri Abitanti all'**Oro** 🪙 |
+| **Ctrl + R** | Scorri Abitanti alla **Pietra** 🪨 |
+
+---
+
+### ⚔️ Unità Speciali
+
+| Tasto | Unità |
+| :--- | :--- |
+| **M** | Scorri **Esploratori** (Scouts) 🐴 |
+| **L** | Scorri **Monaci** (Religious Units) ⛪ |
+
+---
+
+### 🏛️ Selezione Edifici (Modificatore MAIUSC)
+
+Usa **Maiusc (Shift)** + Tasto per selezionare **tutti** gli edifici di quel tipo.
+
+| Combinazione | Edificio Selezionato |
+| :--- | :--- |
+| **Maiusc + Q** | Tutti i **Granai** (Mills) 🥩 |
+| **Maiusc + W** | Tutte le **Falegnamerie** (Lumber Camps) 🌲 |
+| **Maiusc + E** | Tutte le **Aree Minerarie** (Mining Camps) ⛏️ |
+| **Maiusc + A** | Tutti gli **Alloggiamenti** (Barracks) ⚔️ |
+| **Maiusc + S** | Tutti i **Poligoni di Tiro** (Archery Ranges) 🏹 |
+| **Maiusc + D** | Tutte le **Scuderie** (Stables) 🐎 |
+| **Maiusc + V** | Tutti i **Laboratori d'Assedio** (Siege) ☄️ |
+| **Maiusc + H** | Tutte le **Fortezze** (Keeps) 🏰 |
+| **Maiusc + P** | Tutti i **Monasteri** 🕌 |
+| **Maiusc + F** | Tutte le **Università** 🎓 |
+| **Maiusc + L** | **Ovoo** / Strutture Uniche / Landmark |
 ---
 
 <div class="aoe-sidebar" id="aoe-widget">
