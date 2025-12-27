@@ -1,73 +1,53 @@
-# ⚜️ Jeanne d'Arc - Dark Age Tower Rush
+# ⚜️ Jeanne d'Arc - Tower Rush
 
-## 👁️ Fase 0: Scouting & Setup
-* **Scout:** Corri subito verso la base nemica. Individua **Oro** e **Pietra**.
-* **Pecore:** Porta subito quelle vicine al TC sotto al centro città.
-
----
-
-## 🌑 Fase 1: Apertura & JD
-
-* **[ 1 🥩 / 5 🌲 / 0 🪙 ]** :: Inizia mandando **5** al Legno (albero singolo) e **1** alle Pecore.
-* *Nessun villager costruisce nulla.*
-
-!!! danger "HERO ACTION: Jeanne d'Arc"
-    1. Costruisce la **Caserma** (verso il nemico).
-    2. Costruisce una **Casa**.
-    3. Va a raccogliere 🥩 **Cibo**.
-    *Obiettivo: XP veloce.*
+!!! abstract "Scheda Tecnica"
+    * **Obiettivo:** Negare l'Oro nemico in Dark Age.
+    * **Difficoltà:** ⭐⭐⭐
+    * **Setup:** Caserma immediata → 1° Lanciere → Casa → Spam.
 
 ---
 
-## ⚙️ Fase 2: Economia & Produzione
+### 🌑 Fase 1: Dark Age (Aggressive Opening)
 
-* **[ 2+ 🥩 / 5 🌲 / 0 🪙 ]** :: I nuovi vills vanno tutti su 🥩 **Cibo**.
-* **[ 5 🥩 / 2 🌲 / 0 🪙 ]** :: **MICRO LEGNO (Appena hai 50🌲):**
-    * Prendi **3** vills dal Legno → Spostali a 🥩 **Cibo**.
-    * *(Ne rimangono **2** fissi al Legno)*.
-* **Militare:** Produci il **1° Lanciere** subito.
-* **[ 8 🥩 / 2 🌲 / 0 🪙 ]** :: Rally Point TC sempre su 🥩 **Cibo** fino ad averne 8 totali.
-
-!!! quote "Nota Importante"
-    Produci Lancieri continuamente. Usa il "Force Drop" (deposito manuale) se ti mancano pochi cibo.
-
----
-
-## 🏹 Fase 3: Preparazione Attacco
-
-* **[ 8 🥩 / 4 🌲 / 0 🪙 ]** :: Arrivato a 8 su Cibo, sposta Rally Point su 🌲 **Legno** (fino a 4 tot).
-* **[ 12 🥩 / 4 🌲 / 0 🪙 ]** :: Arrivato a 4 su Legno, sposta Rally Point su 🥩 **Cibo**.
-* **Obiettivo:** Accumulare **100🌲** puliti per la torre.
-* **STOP Lancieri:** Fermati a **5** unità.
+| Pop | Eco [🥩/🌲/🪙] | Rally 🆕 | 🔨 Azioni & Costruzioni | ⚜️ Azione JD |
+| :-: | :-: | :-: | :--- | :--- |
+| **6** | 1 / 5 / 0 | 🥩 | Start: 5 a Legno (Albero singolo), 1 Pecore | 🔨 **Caserma** (Verso nemico) |
+| **7** | 1 / 5 / 0 | 🥩 | Produci Vills su Cibo | Finita Caserma → 🔨 **Casa** |
+| **8** | 2 / 5 / 0 | 🥩 | **1° LANCIERE SUBITO** (Appena Caserma finita) | Finita Casa → 🥩 **Cibo** |
+| **Micro** | 5 / 2 / 0 | 🥩 | **A 50 Legno:** Sposta 3 da Legno → Cibo | 🥩 **Cibo** |
+| **9-10** | 8 / 2 / 0 | 🌲 | **Ogni 20 🌲 → 1 Lanciere** (Coda fissa) | 🥩 **Cibo** |
+| **11** | 8 / 3 / 0 | 🌲 | Rally su Legno (Fino a 4 totali) | 🥩 **Cibo** |
+| **12** | 8 / 4 / 0 | 🥩 | Rally torna su Cibo | 🥩 **Cibo** |
+| **Unit** | - | - | **STOP LANCIERI:** Fermati a 5 unità | - |
+| **Attack** | - | - | **MOVE OUT:** 1 Vill (Costruttore) + 5 Lance | - |
 
 ---
 
-## ⚔️ Fase 4: L'Esecuzione (Tower Drop)
+### ⚔️ Fase 2: L'Attacco & Feudale
 
-* **MOVE OUT:** Prendi **1 Vill** (quello con più vita) + **5 Lancieri**.
-* **TARGET:** 🪙 **Oro Nemico**. (Alternativa: Legna/Bacche).
-* **AZIONE:**
-    1. I Lancieri attaccano i villici nemici.
-    2. Il tuo Villager costruisce l'**Avamposto** sulla risorsa (costo 100🌲).
-    3. **Reazione:** Se il nemico attacca con i vills, combatti con le lance ma proteggi il costruttore.
-
----
-
-## 🏛️ Fase 5: Transizione Feudale
-
-* **[ 5 🥩 / 4 🌲 / 6 🪙 ]** :: **AGE UP SETUP:**
-    * Appena hai abbastanza cibo "bancato", sposta **6** Vills da Cibo a 🪙 **Oro**.
-* **PASSAGGIO ETÀ:** Usa **4** Vills del Cibo per costruire la Landmark.
-    * *Scelta:* **Scuola di Cavalleria**.
-* **Miglioramenti Immediati:**
-    1.  Appena hai 50 🪙 / 25 🌲: Ricerca **Feritoie (Arrowslits)** nell'Avamposto.
-    2.  Costruisci **Falegnameria** e **Mulino**.
-    3.  Ricerca **Carriola** (Wheelbarrow).
+| Fase | Eco [🥩/🌲/🪙] | Rally 🆕 | Azione Cruciale | ⚜️ Azione JD |
+| :-: | :-: | :-: | :--- | :--- |
+| **Drop** | - | 🥩 | **Costruisci AVAMPOSTO** sull'Oro nemico (100🌲) | 🥩 Rimane a casa a raccogliere |
+| **Setup** | - | 🥩 | Bancare cibo per Age Up | - |
+| **AgeUp** | 6 / 4 / 6 | - | **Sposta 6 Vills** da Cibo → Oro | - |
+| **Click** | - | - | **AGE UP** con 4 Vills dal Cibo → **Scuola Cav.** | 🔨 Aiuta a costruire Landmark |
+| **Durante** | - | 🌲 | **Fai MULINO → Ricerca 🛒 CARRIOLA** | - |
+| **Trans.** | - | 🌲 | Fai **Falegnameria** se avanza legno | - |
 
 ---
 
-### 🎯 Obiettivo Feudale (Gameplan)
-* **Strutture:** Costruisci subito **2 Poligoni di Tiro (Archery Ranges)**.
-* **[ 15 🥩 / 10 🌲 / 8 🪙 ]** :: Bilanciamento ideale in Feudale.
-* **Jeanne:** Livello 2 (Tank/Heal).
-* **Composizione:** Cavalieri Reali (dalla Landmark) + Arcieri (dai 2 Poligoni di tiro).
+### 🏛️ Fase 3: Feudale (Gameplan)
+
+Appena arrivato in Feudale:
+
+1.  **L'Avamposto:** Ricorda che la torre costa solo **Legno**. Il potenziamento *Feritoie (Arrowslits)* richiede **Pietra**, quindi non farlo subito a meno che tu non ne abbia raccolta o comprata al mercato. Usa la torre per presidiare i lancieri e sparare frecce base.
+2.  **Produzione:** Costruisci subito **2 Poligoni di Tiro (Archery Range)**.
+3.  **Composizione:** Cavalieri Reali (dalla Landmark) + Arcieri (dai Poligoni).
+4.  **Bilanciamento Eco Ideale:**
+    * 🥩 **15** Cibo
+    * 🌲 **10** Legno
+    * 🪙 **8** Oro
+
+!!! danger "Gestione Attacco"
+    * **Regola d'Oro:** Appena hai **20 Legna**, metti in coda un Lanciere. Non aspettare.
+    * **Reazione:** Se il nemico reagisce con i villici ("Villager Pull"), combatti con i Lancieri ma salva il tuo costruttore.

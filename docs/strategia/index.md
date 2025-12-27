@@ -4,6 +4,38 @@ Seleziona una civiltà per accedere alle build order e alle guide specifiche.
 
 <div class="civ-grid">
 
+  <a href="jeanne/" class="civ-card">
+    <img src="../assets/civs/jeanne.png" alt="Jeanne" onerror="this.src='https://placehold.co/60x60/gold/black?text=JD'">
+    <div class="civ-info">
+      <div class="civ-name">Jeanne d'Arc</div>
+      <div class="civ-desc">Eroe / Tempo</div>
+    </div>
+  </a>
+
+  <a href="ottoman/" class="civ-card">
+    <img src="../assets/civs/ottoman.png" alt="Ottoman" onerror="this.src='https://placehold.co/60x60/gold/black?text=OT'">
+    <div class="civ-info">
+      <div class="civ-name">Ottoman</div>
+      <div class="civ-desc">Military Schools</div>
+    </div>
+  </a>
+
+  <a href="rus/" class="civ-card">
+    <img src="../assets/civs/rus.png" alt="Rus" onerror="this.src='https://placehold.co/60x60/gold/black?text=RU'">
+    <div class="civ-info">
+      <div class="civ-name">Rus</div>
+      <div class="civ-desc">Bounty / Map Control</div>
+    </div>
+  </a>
+
+  <a href="ayyubids/" class="civ-card">
+    <img src="../assets/civs/ayyubids.png" alt="Ayyubids" onerror="this.src='https://placehold.co/60x60/gold/black?text=AY'">
+    <div class="civ-info">
+      <div class="civ-name">Ayyubids</div>
+      <div class="civ-desc">Tempo / Casino</div>
+    </div>
+  </a>
+
   <a href="golden_horde/" class="civ-card">
     <img src="../assets/civs/golden_horde.png" alt="Golden Horde" onerror="this.src='https://placehold.co/60x60/gold/black?text=GH'">
     <div class="civ-info">
@@ -25,38 +57,6 @@ Seleziona una civiltà per accedere alle build order e alle guide specifiche.
     <div class="civ-info">
       <div class="civ-name">Knights Templar</div>
       <div class="civ-desc">Ordine Cavalleresco</div>
-    </div>
-  </a>
-
-  <a href="jeanne/" class="civ-card">
-    <img src="../assets/civs/jeanne.png" alt="Jeanne" onerror="this.src='https://placehold.co/60x60/gold/black?text=JD'">
-    <div class="civ-info">
-      <div class="civ-name">Jeanne d'Arc</div>
-      <div class="civ-desc">Eroe / Tempo</div>
-    </div>
-  </a>
-
-  <a href="rus/" class="civ-card">
-    <img src="../assets/civs/rus.png" alt="Rus" onerror="this.src='https://placehold.co/60x60/gold/black?text=RU'">
-    <div class="civ-info">
-      <div class="civ-name">Rus</div>
-      <div class="civ-desc">Bounty / Map Control</div>
-    </div>
-  </a>
-
-  <a href="ayyubids/" class="civ-card">
-    <img src="../assets/civs/ayyubids.png" alt="Ayyubids" onerror="this.src='https://placehold.co/60x60/gold/black?text=AY'">
-    <div class="civ-info">
-      <div class="civ-name">Ayyubids</div>
-      <div class="civ-desc">Tempo / Casino</div>
-    </div>
-  </a>
-
-  <a href="ottoman/" class="civ-card">
-    <img src="../assets/civs/ottoman.png" alt="Ottoman" onerror="this.src='https://placehold.co/60x60/gold/black?text=OT'">
-    <div class="civ-info">
-      <div class="civ-name">Ottoman</div>
-      <div class="civ-desc">Military Schools</div>
     </div>
   </a>
 

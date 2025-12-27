@@ -13,7 +13,7 @@ theme:
     accent: gold
   
   features:
-    - navigation.tabs      # <--- FONDAMENTALE: Attiva il menu orizzontale in alto
+    - navigation.tabs      
     - navigation.top
     - search.suggest
     - search.highlight
@@ -43,22 +43,33 @@ nav:
   - Strategia:
     - Panoramica: strategia/index.md
     
-    # --- VECCHIE CIVILTÀ ---
+    # --- TOP 4 PRIORITY ---
+    
+    # 1. Jeanne d'Arc
     - Jeanne d'Arc:
         - 'Menu': strategia/jeanne/index.md
         - 'Tower Rush': strategia/jeanne/tower_rush.md
         - 'Wheelbarrow Rush': strategia/jeanne/wheelbarrow_rush.md
-    - Rus:
-        - 'Menu': strategia/rus/index.md
-        - '2 Hunting Cabin': strategia/rus/2hc.md
-        - '3 Hunting Cabin': strategia/rus/3hc.md
-    - Ayyubids:
-        - 'Menu': strategia/ayyubids/index.md
-        - 'Vortix': strategia/ayyubids/vortix.md
+
+    # 2. Ottoman (Spostato qui)
     - Ottoman:
         - 'Menu': strategia/ottoman/index.md
-        - 'ASAP School': strategia/ottoman/asap-school.md
+        - 'Military School Opening': strategia/ottoman/asap-school.md
         - 'Standard': strategia/ottoman/standard.md
+
+    # 3. Rus (Rinominati i Label)
+    - Rus:
+        - 'Menu': strategia/rus/index.md
+        - 'Standard': strategia/rus/2hc.md
+        - 'Test (3 HC)': strategia/rus/3hc.md
+
+    # 4. Ayyubids (Spostato qui)
+    - Ayyubids:
+        - 'Menu': strategia/ayyubids/index.md
+        - 'Vortix Fast Castle': strategia/ayyubids/vortix.md
+
+    # --- ALTRE CIVILTÀ ---
+    
     - Macedon:
         - 'Menu': strategia/macedon/index.md
         - 'Standard': strategia/macedon/standard.md
@@ -75,7 +86,7 @@ nav:
         - 'Menu': strategia/sengoku/index.md
         - 'Standard': strategia/sengoku/standard.md
 
-    # --- NUOVE CIVILTÀ ---
+  
     - Golden Horde:
         - 'Menu': strategia/golden_horde/index.md
         - 'Standard': strategia/golden_horde/standard.md
